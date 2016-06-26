@@ -118,7 +118,7 @@ Btn Blog
 		$('.btn-6').addClass('hide');
 	});
 
-$("ul a, .contanchors a, .backtotop").click(function(event){
+/*$("ul a, .contanchors a, .backtotop").click(function(event){
 
 	event.preventDefault();
 	var full_url = this.href;
@@ -129,7 +129,7 @@ $("ul a, .contanchors a, .backtotop").click(function(event){
 
 	$('html,body').animate({scrollTop:target_top -13}, 900);
 	
-});
+});*/
 
 /* 
 =============================================== 

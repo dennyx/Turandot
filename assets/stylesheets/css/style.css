@@ -510,7 +510,7 @@ Table Of Content
   border-bottom: dashed 1px #a1a2a6;
 }
 .header-wrapper .mega-menu .list-mega {
-  padding: 10px;
+      padding: 0px 10px 10px 10px;
 }
 .header-wrapper .mega-menu .list-mega li {
   padding: 7px;
@@ -522,20 +522,24 @@ Table Of Content
   transition: all 0.2s ease-out;
   cursor: pointer;
 }
+.first-item{
+border-top: dotted 1px #a1a2a6;
+}
 .header-wrapper .mega-menu .list-mega li.bottom-red-border {
   border-bottom: 2px solid #fba1a1;
 }
 .header-wrapper .mega-menu .list-mega li a {
   display: block;
   text-decoration: none;
-  color: #a1a2a6;
+  color: #68696b;
+    text-align: center;
 }
 .header-wrapper .mega-menu .list-mega li:first-child {
   background-color: #f4f3ef;
   cursor: inherit;
 }
 .header-wrapper .mega-menu .list-mega li:first-child:hover {
-  background-color: #f4f3ef;
+      background-color: #eae8e0;
 }
 .header-wrapper .mega-menu .list-mega li:hover {
   background-color: #eae8e0;
