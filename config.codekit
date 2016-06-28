@@ -1744,6 +1744,20 @@
 		"outputStyle": 0,
 		"railsCompatible": 0
 		},
+		"\/slim\/gallery.slim": {
+		"compileOnly": 0,
+		"fileType": 1024,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/slim\/gallery.slim",
+		"logicless": 0,
+		"outputAbbreviatedPath": "\/gallery.html",
+		"outputFormat": 0,
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"railsCompatible": 0
+		},
 	"\/slim\/index.slim": {
 		"compileOnly": 0,
 		"fileType": 1024,
