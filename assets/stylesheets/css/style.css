@@ -1954,7 +1954,7 @@ border-top: dotted 1px #a1a2a6;
 =============================================== 
 */
 footer {
-  background-color: #A1D89D;
+  background-color: #1a9e80;
   color: #ffffff;
 }
 footer .abs-logo-footer {
@@ -1963,12 +1963,24 @@ footer .abs-logo-footer {
   text-align: center;
   margin-top: -100px;
 }
+.contactHeader{
+      margin-top: 3px !important;
+    margin-left: 25px !important;
+}
+
+.align-center{
+  text-align: center;
+}
+.centerrow{
+  text-align: center;
+}
 footer .top-footer {
   display: block;
   overflow: hidden;
   border-bottom: 2px solid #ffffff;
   padding-bottom: 15px;
   margin: 15px 15px -15px 15px;
+      margin-top: -138px;
 }
 footer .line-top-white {
   border-bottom: 2px solid #ffffff;
