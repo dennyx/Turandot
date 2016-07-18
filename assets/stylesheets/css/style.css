@@ -1827,10 +1827,10 @@ border-top: dotted 1px #a1a2a6;
   height: 5px;
   background-color: #FEFEFE;
   margin: 0 auto;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 }
 .about-cake p {
-  font-size: 18px;
+  font-size: 19px;
 }
 .img-round-about {
   display: block;
@@ -1997,15 +1997,27 @@ footer .content-about-footer {
     text-align: center;
   }
 }
+.instastyle{
+      font-size: 35px !important;
+}
+.icon-instagram{
+  padding: 8px 10px 10px 10px !important;
+}
 footer .content-about-footer h4 {
     font-family: 'montserratbold';
     text-transform: capitalize;
     font-size: 25px;
     letter-spacing: 8px;
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 15px;
         text-align: center;
     font-variant: small-caps;
 }
+footer .lgdesign{
+      font-size: 22px !important;
+          margin-top: 25px !important;
+    margin-bottom: 25px !important;
+    } 
 footer .content-about-footer p {
   font-size: 18px;
 }
@@ -2112,6 +2124,7 @@ footer .list-link-home li a:hover {
 @media (min-width: 768px) {
   .sosmed-cake li .center-sosmed p {
     font-size: 28px;
+        color: #ffffff;
   }
 }
 .logo-dn {
