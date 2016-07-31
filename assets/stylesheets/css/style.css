@@ -748,6 +748,18 @@ border-top: dotted 1px #a1a2a6;
   margin-top: 30px;
   margin-bottom: 0;
 }
+.lunch-cake h2 {
+  position: relative;
+  margin-top: 30px;
+  margin-bottom: 0;
+  color: #23cfa7;
+}
+.lunch-cake h1 {
+  letter-spacing: 7px;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-shadow: -1px 3px 0px #3c763d;
+}
 @media (min-width: 768px) {
   .tittle-cake h2:before,
   .tittle-cake h2:after {
@@ -759,20 +771,42 @@ border-top: dotted 1px #a1a2a6;
     top: 20px;
     border-radius: 50px;
   }
+    .lunch-cake h2:before,
+  .lunch-cake h2:after {
+    content: '';
+    position: absolute;
+    background-color: #23cfa7;
+    width: 10px;
+    height: 10px;
+    top: 20px;
+    border-radius: 50px;
+  }
 }
 .tittle-cake h2:before {
-  left: 460px;
+  left: 380px;
+}
+.lunch-cake h2:before {
+  left: 380px;
 }
 @media (min-width: 992px) and (max-width: 1199px) {
   .tittle-cake h2:before {
     left: 355px;
   }
+    .lunch-cake h2:before {
+    left: 355px;
+  }
 }
 .tittle-cake h2:after {
-  right: 460px;
+  right: 380px;
+}
+.lunch-cake h2:after {
+  right: 380px;
 }
 @media (min-width: 992px) and (max-width: 1199px) {
   .tittle-cake h2:after {
+    left: 575px;
+  }
+    .lunch-cake h2:after {
     left: 575px;
   }
 }
@@ -845,11 +879,22 @@ border-top: dotted 1px #a1a2a6;
   font-size: 18px;
   font-family: 'latoregular';
 }
+.pad-top-30{
+      padding-top: 30px;
+}
 .green-table {
   background-color: #23cfa7;
   border-top: 10px solid #a0ecd9;
 }
 .green-table.mar-to-top {
+  margin-top: -105px;
+  height: 100px;
+}
+.softgreen-table {
+  background-color: #23cfa7;
+  border-top: 10px solid #a0ecd9;
+}
+.softgreen-table.mar-to-top {
   margin-top: -105px;
   height: 100px;
 }
@@ -1550,19 +1595,27 @@ border-top: dotted 1px #a1a2a6;
   margin: 0 auto;
 }
 .option-content .messes .round-wrap.green-option {
-  background: url('../../images/cake-white-lg2.png') no-repeat center;
+  background: url('../../images/torta-clasica.png') no-repeat center;
+  background-color: #23cfa7;
+}
+.option-content .messes .round-wrap.orange-option {
+  background: url('../../images/torta-especial.png') no-repeat center;
+  background-color: #ffbb63;
+}
+/*.option-content .messes .round-wrap.green-option {
+  background: url('../../images/cake-white-lg.png') no-repeat center;
   background-color: #23cfa7;
 }
 .option-content .messes .round-wrap.orange-option {
   background: url('../../images/cake-white-lg.png') no-repeat center;
   background-color: #ffbb63;
-}
+}*/
 .option-content .messes .round-wrap.blue-option {
-  background: url('../../images/cake-white-lg.png') no-repeat center;
+  background: url('../../images/torta-tematica1.png') no-repeat center;
   background-color: #59d4f0;
 }
 .option-content .messes .round-wrap.pink-option {
-  background: url('../../images/cake-white-lg.png') no-repeat center;
+  background: url('../../images/galletita.png') no-repeat center;
   background-color: #fba1a1;
 }
 .option-content .messes .round-wrap.purple-option {
@@ -2014,7 +2067,7 @@ footer .content-about-footer h4 {
     font-variant: small-caps;
 }
 footer .lgdesign{
-      font-size: 22px !important;
+      font-size: 20px !important;
           margin-top: 25px !important;
     margin-bottom: 25px !important;
     } 
