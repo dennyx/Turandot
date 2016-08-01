@@ -480,7 +480,7 @@ Table Of Content
   margin: 0 auto;
 }
 .header-wrapper .toggle-cake {
-  background-color: #fba1a1;
+  background-color: #ace1a7;
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
   -ms-transition: all 0.2s ease-out;
@@ -503,6 +503,10 @@ Table Of Content
   .header-wrapper .mega-menu {
     margin-top: 20px;
   }
+
+  .about-cake p {
+    font-size: 16px;
+}
 }
 .header-wrapper .mega-menu .tittle-mega {
   text-align: center;
@@ -796,6 +800,37 @@ border-top: dotted 1px #a1a2a6;
     left: 355px;
   }
 }
+
+@media (max-width: 700px) {
+  .about-cake p {
+    font-size: 16px !important;
+    padding-top: 20px !important;
+  }
+  .turandot h2 {
+    font-size: 47px !important;
+  }
+  .tittle-cake h2 {
+    font-size: 46px !important;
+  }
+  .contactHeader {
+    margin-top: 12px !important;
+    margin-left: 28px !important;
+  }
+  footer .top-footer {
+      margin-top: -44px !important;
+  }
+
+  .logo-turandot-mobile{
+        width: 180px !important;
+    margin-top: -8px !important;
+  }
+
+  .icon-instagram {
+      padding: 3px 0px 0px 0px !important;
+  }
+
+}
+
 .tittle-cake h2:after {
   right: 380px;
 }
@@ -826,6 +861,9 @@ border-top: dotted 1px #a1a2a6;
     top: 20px;
     border-radius: 50px;
   }
+  .about-cake p {
+    font-size: 16px;
+}
 }
 .turandot h2:after {
     right: 490px !important;
@@ -2017,8 +2055,8 @@ footer .abs-logo-footer {
   margin-top: -100px;
 }
 .contactHeader{
-      margin-top: 3px !important;
-    margin-left: 25px !important;
+      margin-top: 3px ;
+    margin-left: 25px ;
 }
 
 .align-center{
@@ -2052,10 +2090,11 @@ footer .content-about-footer {
 }
 .instastyle{
       font-size: 35px !important;
+          padding: 0px 0px 0px 1px;
 }
-.icon-instagram{
-  padding: 8px 10px 10px 10px !important;
-}
+/*.icon-instagram{
+  padding: 8px 10px 10px 10px ;
+}*/
 footer .content-about-footer h4 {
     font-family: 'montserratbold';
     text-transform: capitalize;
@@ -2073,6 +2112,7 @@ footer .lgdesign{
     } 
 footer .content-about-footer p {
   font-size: 18px;
+      margin: 0 0 0 0;
 }
 footer .list-picture-footer {
   margin-top: 20px;
@@ -2168,6 +2208,7 @@ footer .list-link-home li a:hover {
   height: 100%;
 }
 .sosmed-cake li .center-sosmed p {
+      color: white;
   text-align: center;
   display: table-cell;
   vertical-align: middle;
