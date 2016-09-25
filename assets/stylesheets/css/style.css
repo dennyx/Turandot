@@ -228,7 +228,7 @@ Table Of Content
 }
 .header-wrapper .wrap-header.green-top-dot {
   background: url('../../images/dot-green-1.png') repeat;
-  height: 250px;
+  height: 100%;
 }
 .header-wrapper .wrap-header.orange-top-dot {
   background: url('../../images/dot-orange-1.png') repeat;
@@ -932,6 +932,13 @@ border-top: dotted 1px #a1a2a6;
   background-color: #23cfa7;
   border-top: 10px solid #a0ecd9;
 }
+
+.softblue-table {
+    background-color: #337ab7;
+    border-top: 10px solid #5e93c1;
+    border-bottom: 10px solid #5e93c1;
+}
+
 .softgreen-table.mar-to-top {
   margin-top: -105px;
   height: 100px;
@@ -1866,7 +1873,7 @@ border-top: dotted 1px #a1a2a6;
 }
 .abouts-cake h2:before,
 .abouts-cake h2:after {
-  background-color: #23cfa7;
+  background-color: #ffffff;
 }
 .abouts-cake h4 {
   font-family: 'montserratbold';
