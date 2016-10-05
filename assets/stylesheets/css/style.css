@@ -1647,6 +1647,11 @@ border-top: dotted 1px #a1a2a6;
   background: url('../../images/torta-especial.png') no-repeat center;
   background-color: #ffbb63;
 }
+
+.option-content .messes .round-wrap.lunch-salad-option {
+  background: url('../../images/pizza.png') no-repeat center;
+  background-color: #ffbb63;
+}
 /*.option-content .messes .round-wrap.green-option {
   background: url('../../images/cake-white-lg.png') no-repeat center;
   background-color: #23cfa7;
@@ -1657,6 +1662,10 @@ border-top: dotted 1px #a1a2a6;
 }*/
 .option-content .messes .round-wrap.blue-option {
   background: url('../../images/torta-tematica1.png') no-repeat center;
+  background-color: #59d4f0;
+}
+.option-content .messes .round-wrap.delivery-option {
+  background: url('../../images/delivery.png') no-repeat center;
   background-color: #59d4f0;
 }
 .option-content .messes .round-wrap.pink-option {
