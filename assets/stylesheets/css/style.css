@@ -1948,6 +1948,26 @@ border-top: dotted 1px #a1a2a6;
   font-family: 'montserratbold';
   letter-spacing: 2px;     
 }
+
+  #sendmessage {
+    border:1px solid #337ab7;
+    display: none;
+    text-align: center;
+    padding: 15px 12px 15px;
+    margin: 10px 0;
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 30px;
+        color: #337ab7;
+}
+
+.validation {
+    display: none;
+    margin: 15px 0 15px;
+    font-weight: 400;
+    font-size: 15px;
+    color: #005196;
+}
 /* 
 =============================================== 
 11. Pagination Section CSS

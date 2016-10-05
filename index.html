@@ -771,116 +771,129 @@
 			</h2>
 		</div>
 	</div>
-	<div class="container mar-top-20">
-		<div class="col-sm-offset-3 col-sm-6">
-			<div class="form-group">
-				<input class="form-control form-default-cakes" placeholder="Tu nombre" type="text">
-			</div>
-			<div class="form-group">
-				<input class="form-control form-default-cakes" placeholder="Tu e-mail" type="email">
-			</div>
-			<textarea class="form-control form-default-cakes" placeholder="Tu consulta"></textarea>
-			<div class="form-group">
-				<button class="btn btn-lg btn-pink-cake btn-send mar-top-20">Enviar</button>
-			</div>
-		</div>
-	</div>
-</section>
-<!-- End Option Cake --><!-- Start Footer Cake -->
-<footer>
-	<div class="triangle-no-animate">
-		&nbsp;
-	</div>
-	<div class="container">
-		<div class="abs-logo-footer">
-			<img alt="Logo-Cake" src="assets/images/logo-170.png">
-		</div>
-		<div class="top-footer">
-			<div class="row">
-				<div class="col-sm-6">
-					<ul class="sosmed-cake">
+	<div class="Contact-form container mar-top-20">
+		<div class="send-form text-center col-sm-offset-3 col-sm-6">
+			<div class="cform" id="contact-form">
+				<form action="contact/contact.php" method="post" role="form" class="contactForm">
+					<div class="form-group text-box1">
+						<input class="form-control form-default-cakes" type="text" name="name" id="name" data-rule="maxlen:4" data-msg="Por favor, ingrese 4 caracteres como minimo" placeholder="Ingresa tu nombre"/>
+						<div class="validation"></div>
+					</div>
+					<div class="text-box2 form-group">
+						<input class="form-control form-default-cakes"  type="text" name="email" data-rule="email" id="email" data-msg="Por favor, ingrese un email valido"  placeholder="Ingresa tu email">
+						<div class="validation"></div>
+					</div>
+					<div class="text-box3 form-group">
+						<textarea class="form-control form-default-cakes" type="text" name="message" id="message" data-msg="Por favor, ingrese 8 caracteres como minimo." data-rule="required"   placeholder="Ingresa tu consulta"></textarea>
+						<div class="validation"></div>
+					</div>
+					<div class="clearfix"> 
+						<input class="btn btn-lg btn-pink-cake btn-send mar-top-20" type="submit" value="Enviar" />
+						</div>
+					</form>
 
-					</ul>
+					<div id="sendmessage">
+						Tu mensaje fue enviado. Muchas Gracias!
+					</div>
 				</div>
-				<div class="col-sm-6 text-right">
-					<ul class="sosmed-cake">
-						<li>
-							<div class="center-sosmed">
-								<a  href="https://www.facebook.com/turandotpasteleria/" target="_blank">
-									<p class="icon icon-facebook">
-										&nbsp;
-									</p>
+			</div>
+		</div>
+	</section>
+	<!-- End Option Cake --><!-- Start Footer Cake -->
+	<footer>
+		<div class="triangle-no-animate">
+			&nbsp;
+		</div>
+		<div class="container">
+			<div class="abs-logo-footer">
+				<img alt="Logo-Cake" src="assets/images/logo-170.png">
+			</div>
+			<div class="top-footer">
+				<div class="row">
+					<div class="col-sm-6">
+						<ul class="sosmed-cake">
+
+						</ul>
+					</div>
+					<div class="col-sm-6 text-right">
+						<ul class="sosmed-cake">
+							<li>
+								<div class="center-sosmed">
+									<a  href="https://www.facebook.com/turandotpasteleria/" target="_blank">
+										<p class="icon icon-facebook">
+											&nbsp;
+										</p>
+									</a>
+								</div>
+							</li>
+							<li>
+								<div class="center-sosmed">
+									<a  href="https://twitter.com/TurandotTortas" target="_blank">
+										<p class="icon icon-twitter">
+											&nbsp;
+										</p>
+									</div>
 								</a>
-							</div>
-						</li>
-						<li>
-							<div class="center-sosmed">
-								<a  href="https://twitter.com/TurandotTortas" target="_blank">
-									<p class="icon icon-twitter">
-										&nbsp;
-									</p>
-								</div>
-							</a>
-						</li>
-						<li>
-							<div class="center-sosmed">
-								<a  href="https://www.instagram.com/turandotpasteleria/" target="_blank">
-									<p class="icon icon-instagram">
-										<i class="fa fa-instagram instastyle" aria-hidden="true" ></i>
-									</p>
-								</div>
-							</a>
-						</li>
-					</ul>
+							</li>
+							<li>
+								<div class="center-sosmed">
+									<a  href="https://www.instagram.com/turandotpasteleria/" target="_blank">
+										<p class="icon icon-instagram">
+											<i class="fa fa-instagram instastyle" aria-hidden="true" ></i>
+										</p>
+									</div>
+								</a>
+							</li>
+						</ul>
+					</div>
 				</div>
 			</div>
-		</div>
-		<div class="line-top-white mar-btm-20 mar-top-20">
-			&nbsp;
-		</div>
-		<div class="content-about-footer">
-			<!-- Column -->
-			<div class="row centerrow">
-				<h4>Turandot</h4>
-				<div class="col-sm-4 col-xs-12">
-					<div class="row centerrow">
-						<i class="fa fa-mobile fa-4x mar-bot20" aria-hidden="true" ><h2 class="section-heading animated contactHeader" data-animation="bounceInUp">Contacto</h2></i>
-					</div>
-					<p>(011) 15-4063-1667</p>
-					<p>alicia@turandot.com.ar</p>
-				</div>
+			<div class="line-top-white mar-btm-20 mar-top-20">
+				&nbsp;
+			</div>
+			<div class="content-about-footer">
 				<!-- Column -->
-				<div class="col-sm-4 col-xs-12">
-					<div class="row centerrow">
-						<i class="fa fa-map-marker fa-4x mar-bot20" aria-hidden="true" ><h2 class="section-heading animated contactHeader" data-animation="bounceInUp">Direccion</h2></i>
+				<div class="row centerrow">
+					<h4>Turandot</h4>
+					<div class="col-sm-4 col-xs-12">
+						<div class="row centerrow">
+							<i class="fa fa-mobile fa-4x mar-bot20" aria-hidden="true" ><h2 class="section-heading animated contactHeader" data-animation="bounceInUp">Contacto</h2></i>
+						</div>
+						<p>(011) 15-4063-1667</p>
+						<p>alicia@turandot.com.ar</p>
 					</div>
-					<p>Avellaneda</p>
-					<p>Entregamos a domicilio</p>
-				</div>
+					<!-- Column -->
+					<div class="col-sm-4 col-xs-12">
+						<div class="row centerrow">
+							<i class="fa fa-map-marker fa-4x mar-bot20" aria-hidden="true" ><h2 class="section-heading animated contactHeader" data-animation="bounceInUp">Direccion</h2></i>
+						</div>
+						<p>Avellaneda</p>
+						<p>Entregamos a domicilio</p>
+					</div>
 
-				<!-- Column -->
-				<div class="col-sm-4 col-xs-12">
-					<div class="row centerrow">
-						<i class="fa fa-clock-o fa-4x mar-bot20" aria-hidden="true" ><h2 class="section-heading animated contactHeader" data-animation="bounceInUp">Horario de Atencion</h2></i>
+					<!-- Column -->
+					<div class="col-sm-4 col-xs-12">
+						<div class="row centerrow">
+							<i class="fa fa-clock-o fa-4x mar-bot20" aria-hidden="true" ><h2 class="section-heading animated contactHeader" data-animation="bounceInUp">Horario de Atencion</h2></i>
+						</div>
+						<p>09:00 a 21:00 hs</p>
 					</div>
-					<p>09:00 a 21:00 hs</p>
+				</div>
+			</div>
+			<div class="line-top-white mar-btm-20 mar-top-20">
+				&nbsp;
+			</div>
+			<div class="content-about-footer">
+				<!-- Column -->
+				<div class="col-sm-12">
+					<h4 class="lgdesign">
+						Diseña tu Pagina Web   <a target="_blank" title="LG Design" href="http://www.lgdesign.com.ar/">LG Design</a>
+					</h4>
 				</div>
 			</div>
 		</div>
-		<div class="line-top-white mar-btm-20 mar-top-20">
-			&nbsp;
-		</div>
-		<div class="content-about-footer">
-			<!-- Column -->
-			<div class="col-sm-12">
-				<h4 class="lgdesign">
-					Diseña tu Pagina Web   <a target="_blank" title="LG Design" href="http://www.lgdesign.com.ar/">LG Design</a>
-				</h4>
-			</div>
-		</div>
-	</div>
-</footer>
-<!-- End Option Cake -->
+	</footer>
+	<!-- End Option Cake -->
 </div>
 </div>
 <script src="assets/javascripts/jquery.js"></script>
@@ -891,6 +904,9 @@
 <script src="assets/javascripts/bootstrap.js"></script>
 <script src="assets/javascripts/classie.js"></script>
 <script src="assets/javascripts/pathLoader.js"></script>
+
+<script src="assets/javascripts/validate.js"></script>
+
 <script src="assets/javascripts/main.js"></script>
 <script type="text/javascript">
 	new WOW().init();
